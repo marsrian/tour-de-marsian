@@ -1,9 +1,14 @@
+body{
+    overflow-x: hidden;
+    width: 1350px;
+}
 .header{
     background-image: url(images/rian-bisnakandi.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
+    width: 1350px;
 }
 nav{
     display: flex;
@@ -70,12 +75,14 @@ button:hover{
     height: 200px;
     background-color: rgb(212, 220, 227);
     margin-top: 0px;
+    width: 1350px;
 }
 .quotes-section h1{
     width: 800px;
     text-align: center;
     margin-bottom: 0px;
 }
+
 /* Event Section */
 .events-section{
     width: 1350px;
@@ -85,7 +92,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 150px;
+    margin-left: 10px;
     
 }
 .event-title{
@@ -170,7 +177,7 @@ button:hover{
 
 /* Explore */
 .explore{
-    width: 1350;
+    width: 1350px;
     height: 400px;
     background-image: url(images/FB_IMG_1502513169604.jpg);
     background-size: cover;
@@ -200,11 +207,11 @@ button:hover{
     flex-direction: row;
     justify-content: space-around;
     width: 1350px;
-    margin-left: 90px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .destination-details{
     width: 400px;
+    margin-left: 50px;
 
 }
 .destination-details h1{
@@ -225,6 +232,8 @@ button:hover{
 }
 .destination-picture img{
     width: 400px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 .destination-picture img:nth-child(1){
     height: 250px;
@@ -258,11 +267,28 @@ button:hover{
     body{
         overflow-x: hidden;
     }
+    .header{
+        width: 576px;
+    }
     .nav-title{
         display: none;
     }
-    .quotes-section h1{
+    .hero-section{
         width: 500px;
+        text-align: center;
+    }
+    .hero-section h1{
+        font-size: 40px;
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .quotes-section {
+        width: 576px;
+    }
+    .quotes-section h1{
+        width: 400px;
+        font-size: 20px;
     }
     .events-section{
         width: 550px;
@@ -271,9 +297,12 @@ button:hover{
         display: flex;
         flex-direction: column;
         margin-left: 0px;
+        margin-right: 0px;
     }
     .event-details{
         width: 500px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .event-details img{
         width: 450px;
@@ -284,7 +313,7 @@ button:hover{
         height: auto;
     }
     .explore{
-        width: 100%;
+        width: 576px;
     }
     .explore-details h1{
         color: aqua;
@@ -295,8 +324,11 @@ button:hover{
         flex-direction: column;
         margin: 50px  20px 0px 20px;
     }
+    .destination-details {
+        margin-left: 10px;
+    }
     .destination-details button{
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .destination-picture{
         width: 550px;
@@ -305,6 +337,7 @@ button:hover{
     }
     .destination-picture img{
         width:500px;
+        margin-left: 7px;
     }
     .destination-picture img:nth-child(2){
         height: 500px;
@@ -319,7 +352,10 @@ button:hover{
         height: 250px;
         margin-bottom: 20px;
     }
+    .footer {
+        width: 576px;
+    }
     .footer h6{
-        width: 400px;
+        text-align: center;
     }
 }
