@@ -130,48 +130,29 @@ button:hover{
 /* Event-Click */
 #mayabi-details{
     display: none;
-    text-align: center;
-    width: 700px;
-    border: 2px solid lightgray;
-    margin: 5px auto;
-
 }
-#mayabi-details img{
-    margin-top: 5px;
-    width: 600px;
-    text-align: center;
-}
-#mayabi-details p{
-    width: 550px;
-    margin: 0 auto;
-}
-#mayabi-details button{
-    margin-bottom: 20px;
-}
-#mayabi-details button:hover{
-    color: brown;
-}
-
 #pahar-vilash{
     display: none;
+}
+.eventsAll{
     text-align: center;
     width: 700px;
     border: 2px solid lightgray;
     margin: 5px auto;
 }
-#pahar-vilash img{
+.eventsAll img{
     margin-top: 5px;
     width: 600px;
     text-align: center;
 }
-#pahar-vilash p{
+.eventsAll p{
     width: 550px;
     margin: 0 auto;
 }
-#pahar-vilash button{
+.eventsAll button{
     margin-bottom: 20px;
 }
-#pahar-vilash button:hover{
+.eventsAll button:hover{
     color: brown;
 }
 
@@ -292,7 +273,7 @@ button:hover{
         font-size: 20px;
     }
     .events-section{
-        width: 550px;
+        width: 576px;
     }
     .event{
         display: flex;
@@ -302,8 +283,7 @@ button:hover{
     }
     .event-details{
         width: 500px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 15px auto;
     }
     .event-details img{
         width: 450px;
@@ -358,5 +338,17 @@ button:hover{
     }
     .footer h6{
         text-align: center;
+    }
+    /* Click Event */
+    .eventsAll{
+        display: none;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .eventsAll img{
+        width: 450px;
+    }
+    .eventsAll p{
+        width: 400px;
     }
 }
