@@ -1,0 +1,325 @@
+.header{
+    background-image: url(images/rian-bisnakandi.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+nav h1{
+    color: #fff;
+    font-weight: 800;
+}
+nav h1 span{
+    letter-spacing: 2px;
+    color: lightgrey;
+}
+.nav-title{
+    display: flex;
+    color: #fff;
+}
+.nav-title li{
+    margin-right: 20px;
+    list-style: none;
+}
+.nav-title li:hover{
+    cursor: pointer;
+    color: red;
+}
+.hero-section{
+    text-align: center;
+    margin-top: 200px;
+}
+.hero-section p{
+    color: rgb(40, 37, 37);
+    font-weight: 700;
+}
+.hero-section h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 0px;
+}
+button{
+    background-color: rgb(247, 4, 110);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 600;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(247, 4, 110);
+    letter-spacing: 1.5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Quotes */
+.quotes-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(212, 220, 227);
+    margin-top: 0px;
+}
+.quotes-section h1{
+    width: 800px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+/* Event Section */
+.events-section{
+    width: 1350px;
+    background: #fff;
+}
+.event{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 150px;
+    
+}
+.event-title{
+    text-transform: uppercase;
+    text-align: center;
+}
+.event-details{
+    width: 550px;
+    text-align: center;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 15px rgb(50, 46, 46);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.event-details img{
+    width: 550px;
+    height: 333px;
+}
+.event-details p{
+    width: 500px;
+}
+.event-details .btn{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn img{
+    width: 15px;
+    margin-left: 5px;
+    height: auto;
+}
+.event-details button:hover{
+    color: chocolate;
+}
+
+/* Event-Click */
+#mayabi-details{
+    display: none;
+    text-align: center;
+    width: 700px;
+    border: 2px solid lightgray;
+    margin: 5px auto;
+
+}
+#mayabi-details img{
+    margin-top: 5px;
+    width: 600px;
+    text-align: center;
+}
+#mayabi-details p{
+    width: 550px;
+    margin: 0 auto;
+}
+#mayabi-details button{
+    margin-bottom: 20px;
+}
+#mayabi-details button:hover{
+    color: brown;
+}
+
+#pahar-vilash{
+    display: none;
+    text-align: center;
+    width: 700px;
+    border: 2px solid lightgray;
+    margin: 5px auto;
+}
+#pahar-vilash img{
+    margin-top: 5px;
+    width: 600px;
+    text-align: center;
+}
+#pahar-vilash p{
+    width: 550px;
+    margin: 0 auto;
+}
+#pahar-vilash button{
+    margin-bottom: 20px;
+}
+#pahar-vilash button:hover{
+    color: brown;
+}
+
+/* Explore */
+.explore{
+    width: 1350;
+    height: 400px;
+    background-image: url(images/FB_IMG_1502513169604.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.explore-details{
+    width: 500px;
+    height: 150px;
+    float: right;
+    margin-top: 120px;
+}
+.explore-details h1{
+    margin-top: 0px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.explore-details p{
+    width: 420px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+/* Destination */
+.destination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1350px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.destination-details{
+    width: 400px;
+
+}
+.destination-details h1{
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.destination-details p{
+    color: rgb(131, 124, 124);
+    line-height: 30px;
+}
+.destination-details button:hover{
+    color: brown;
+}
+.destination-picture{
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.destination-picture img{
+    width: 400px;
+}
+.destination-picture img:nth-child(1){
+    height: 250px;
+}
+.destination-picture img:nth-child(2){
+    height: 500px;
+}
+.destination-picture img:nth-child(3){
+    margin-top: -230px;
+    height: 500px;
+}
+.destination-picture img:nth-child(4){
+    margin-top: 20px;
+    height: 250px;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h6{
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-title{
+        display: none;
+    }
+    .quotes-section h1{
+        width: 500px;
+    }
+    .events-section{
+        width: 550px;
+    }
+    .event{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .event-details{
+        width: 500px;
+    }
+    .event-details img{
+        width: 450px;
+    }
+    .btn img{
+        width: 15px;
+        margin-left: 5px;
+        height: auto;
+    }
+    .explore{
+        width: 100%;
+    }
+    .explore-details h1{
+        color: aqua;
+    }
+    .destination{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px  20px 0px 20px;
+    }
+    .destination-details button{
+        margin-bottom: 10px;
+    }
+    .destination-picture{
+        width: 550px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .destination-picture img{
+        width:500px;
+    }
+    .destination-picture img:nth-child(2){
+        height: 500px;
+        margin-top: 10px;
+        margin-bottom: 240px;
+    }
+    .destination-picture img:nth-child(3){
+        height: 500px;
+    }
+    .destination-picture img:nth-child(4){
+        margin-top: 20px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .footer h6{
+        width: 400px;
+    }
+}
