@@ -338,6 +338,7 @@ button:hover{
     }
     .footer h6{
         text-align: center;
+        font-size: 18px;
     }
     /* Click Event */
     .eventsAll{
